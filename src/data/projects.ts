@@ -65,6 +65,57 @@ export const projects: Project[] = [
   },
   {
     id: "4",
+    slug: "ai-course-generator",
+    title: "AI Course Generator",
+    description:
+      "The AI Course Generator is an intelligent web platform that leverages generative AI to create customized educational coursebooks on any given topic.",
+    tech: ["Next.js", "TypeScript", "JavaScript", "Gemini API", "Tailwind CSS"],
+    images: [
+      "https://easy-peasy.ai/cdn-cgi/image/quality%3D80%2Cformat%3Dauto%2Cwidth%3D700/https%3A//media.easy-peasy.ai/f1a98533-750a-404d-826a-5940e5c09b1b/f74b648b-a002-4320-98ab-5e365a970636.png",
+    ],
+    githubUrl: "https://github.com/shyammaurya606/ai--course-book-generator",
+    liveUrl: "https://ai-coursebook-generator.netlify.app/",
+    featured: false,
+    isComplete: false, // ✅ added
+    createdAt: new Date('2024-02-01'),
+    updatedAt: new Date('2024-02-10'),
+  },
+  {
+    id: "5",
+    slug: "free-books-library",
+    title: "Free Books Library",
+    description:
+      "A free online platform to read books instantly without sign-up or registration. Provides a clean, user-friendly interface with fast access and smooth reading experience.",
+    tech: ["Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Firebase"],
+    images: [
+      "https://media.istockphoto.com/id/1453378866/video/hand-turning-pages-of-a-book-close-up-cinematic-slow-motion.jpg?s=640x640&k=20&c=UWqAJODnV8RTehBk_SuyhXEBjnyfdKc9eFzkaAE8M64=",
+    ],
+    githubUrl: "https://github.com/shyammaurya606/My-Library",
+    liveUrl: " ",
+    featured: false,
+    isComplete: false, // ✅ added
+    createdAt: new Date('2024-02-01'),
+    updatedAt: new Date('2024-02-10'),
+  },
+  {
+    id: "5",
+    slug: "web-contacts-scraper",
+    title: "Web Contacts Scraper",
+    description:
+      "A lightweight tool that extracts contact information (emails, phone numbers, social links) from websites. Helps users collect and organize leads quickly without manual searching..",
+    tech: ["React", "JavaScript", "Tailwind CSS", "HTML"],
+    images: [
+      "https://www.shutterstock.com/image-illustration/web-scraping-text-written-over-260nw-2435079055.jpg",
+    ],
+    githubUrl: "https://github.com/shyammaurya606/Web-Contact-Detail-Scraper",
+    liveUrl: "https://web-contact-scraper.netlify.app/",
+    featured: false,
+    isComplete: true, // ✅ added
+    createdAt: new Date('2024-02-01'),
+    updatedAt: new Date('2024-02-10'),
+  },
+  {
+    id: "5",
     slug: "chess-dotcom",
     title: "Chess DotCom",
     description:
@@ -80,23 +131,7 @@ export const projects: Project[] = [
     createdAt: new Date('2024-02-01'),
     updatedAt: new Date('2024-02-10'),
   },
-  {
-    id: "5",
-    slug: "ai-course-generator",
-    title: "AI Course Generator",
-    description:
-      "The AI Course Generator is an intelligent web platform that leverages generative AI to create customized educational coursebooks on any given topic.",
-    tech: ["Next.js", "TypeScript", "JavaScript", "Gemini API", "Tailwind CSS"],
-    images: [
-      "https://easy-peasy.ai/cdn-cgi/image/quality%3D80%2Cformat%3Dauto%2Cwidth%3D700/https%3A//media.easy-peasy.ai/f1a98533-750a-404d-826a-5940e5c09b1b/f74b648b-a002-4320-98ab-5e365a970636.png",
-    ],
-    githubUrl: "https://github.com/example/ai-chat",
-    liveUrl: "https://ai-coursebook-generator.netlify.app/",
-    featured: false,
-    isComplete: false, // ✅ added
-    createdAt: new Date('2024-02-01'),
-    updatedAt: new Date('2024-02-10'),
-  },
+  
   {
     id: "6",
     slug: "weather-dashboard",
