@@ -65,20 +65,20 @@ export const projects: Project[] = [
   },
   {
     id: "4",
-    slug: "ai-course-generator",
-    title: "AI Course Generator",
+    slug: "smart-recipe-generator",
+    title: "Smart Recipe Generator",
     description:
-      "The AI Course Generator is an intelligent web platform that leverages generative AI to create customized educational coursebooks on any given topic.",
-    tech: ["Next.js", "TypeScript", "JavaScript", "Gemini API", "Tailwind CSS"],
+      "The Smart Recipe Generator uses the Gemini API to instantly transform your available ingredients into creative, step-by-step food recipes. It helps you reduce food waste while discovering new and delicious meal ideas effortlessly.",
+    tech: ["React.js", "JavaScript", "Gemini API", "Tailwind CSS","Supabase"],
     images: [
-      "https://easy-peasy.ai/cdn-cgi/image/quality%3D80%2Cformat%3Dauto%2Cwidth%3D700/https%3A//media.easy-peasy.ai/f1a98533-750a-404d-826a-5940e5c09b1b/f74b648b-a002-4320-98ab-5e365a970636.png",
+      "https://cdn.dribbble.com/userupload/10039563/file/original-744a2f83aab8b73dee787b75a3047354.png?resize=400x0",
     ],
     githubUrl: "https://github.com/shyammaurya606/ai--course-book-generator",
-    liveUrl: "https://ai-coursebook-generator.netlify.app/",
+    liveUrl: "https://smart-recipe-ai-generator.netlify.app/",
     featured: false,
-    isComplete: false, // ✅ added
-    createdAt: new Date('2024-02-01'),
-    updatedAt: new Date('2024-02-10'),
+    isComplete: true, // ✅ added
+    createdAt: new Date('2025-09-10'),
+    updatedAt: new Date('2025-09-10'),
   },
   {
     id: "5",
@@ -155,7 +155,7 @@ export const projects: Project[] = [
     title: "Weather Dashboard",
     description:
       "The Weather Dashboard is a lightweight and user-friendly web application that allows users to check real-time weather information for any city worldwide.",
-    tech: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+    tech: ["HTML", "CSS", "JavaScript", "OpenWeather API",],
     images: [
       "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg",
     ],
