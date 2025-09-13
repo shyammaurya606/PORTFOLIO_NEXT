@@ -82,6 +82,23 @@ export const projects: Project[] = [
   },
   {
     id: "5",
+    slug: "ai-course-generator",
+    title: "AI Course Generator",
+    description:
+      "The AI Course Generator is an intelligent web platform that leverages generative AI to create customized educational coursebooks on any given topic.",
+    tech: ["Next.js", "TypeScript", "JavaScript", "Gemini API", "Tailwind CSS"],
+    images: [
+      "https://easy-peasy.ai/cdn-cgi/image/quality%3D80%2Cformat%3Dauto%2Cwidth%3D700/https%3A//media.easy-peasy.ai/f1a98533-750a-404d-826a-5940e5c09b1b/f74b648b-a002-4320-98ab-5e365a970636.png",
+    ],
+    githubUrl: "https://github.com/shyammaurya606/ai--course-book-generator",
+    liveUrl: "https://ai-coursebook-generator.netlify.app/",
+    featured: false,
+    isComplete: false, // ✅ added
+    createdAt: new Date('2024-02-01'),
+    updatedAt: new Date('2024-02-10'),
+  },
+  {
+    id: "6",
     slug: "free-books-library",
     title: "Free Books Library",
     description:
@@ -98,7 +115,7 @@ export const projects: Project[] = [
     updatedAt: new Date('2024-02-10'),
   },
   {
-    id: "5",
+    id: "7",
     slug: "web-contacts-scraper",
     title: "Web Contacts Scraper",
     description:
@@ -115,7 +132,7 @@ export const projects: Project[] = [
     updatedAt: new Date('2024-02-10'),
   },
   {
-    id: "5",
+    id: "8",
     slug: "chess-dotcom",
     title: "Chess DotCom",
     description:
@@ -133,7 +150,7 @@ export const projects: Project[] = [
   },
   
   {
-    id: "6",
+    id: "9",
     slug: "weather-dashboard",
     title: "Weather Dashboard",
     description:
@@ -150,7 +167,7 @@ export const projects: Project[] = [
     updatedAt: new Date('2024-02-10'),
   },
   {
-    id: "7",
+    id: "10",
     slug: "chat-application",
     title: "Chat Application",
     description:
@@ -167,7 +184,7 @@ export const projects: Project[] = [
     updatedAt: new Date('2024-02-10'),
   },
   {
-    id: "8",
+    id: "11",
     slug: "movies-landing-page",
     title: "Movies Landing Page",
     description:
